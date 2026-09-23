@@ -1,0 +1,33 @@
+*{box-sizing:border-box}
+body{margin:0;background:#f5f7fb;color:#1f2937;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif}
+.wrap{max-width:900px;margin:auto;padding:24px 16px 60px}
+header{text-align:center;margin:12px 0 24px}
+h1{font-size:32px;margin:0 0 8px}
+h2{margin-top:0}
+h3{margin-bottom:10px}
+.card{background:#fff;border-radius:18px;padding:22px;margin:16px 0;box-shadow:0 4px 18px rgba(0,0,0,.06)}
+.small{color:#6b7280;font-size:14px;line-height:1.6}
+label{display:block;font-weight:700;margin:18px 0 7px}
+.inputRow,.shareRow{display:flex;gap:8px}
+input{width:100%;padding:13px 14px;border:1px solid #d1d5db;border-radius:10px;font-size:17px}
+button{border:0;border-radius:10px;padding:12px 17px;font-weight:700;font-size:15px;cursor:pointer;background:#111827;color:white}
+button:hover{opacity:.9}
+.danger{background:#9f1239}
+.linkBtn{background:transparent;color:#374151;padding:8px}
+.result{margin-top:18px;padding:22px;border-radius:14px;text-align:center;background:#eef2ff}
+.result .seat{font-size:64px;font-weight:800;letter-spacing:2px}
+.hidden{display:none!important}
+.teacherHead{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.notice{background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:12px;margin:16px 0;font-size:14px}
+.shareRow{margin-bottom:20px}
+.gridWrap{overflow:auto}
+.seatGrid{display:grid;grid-template-columns:repeat(6,minmax(70px,1fr));gap:7px;min-width:470px}
+.seatCell{border:1px solid #dbe1ea;border-radius:10px;padding:9px;text-align:center;min-height:68px;background:#fafafa}
+.seatCell .id{font-weight:800}
+.seatCell .person{font-size:13px;margin-top:5px}
+.empty{color:#9ca3af;background:#f3f4f6}
+.door{border-style:dashed}
+table{width:100%;border-collapse:collapse}
+th,td{padding:9px;border-bottom:1px solid #e5e7eb;text-align:center}
+th{background:#f9fafb}
+@media(max-width:600px){.teacherHead{flex-direction:column}.inputRow,.shareRow{flex-direction:column}.result .seat{font-size:52px}}
