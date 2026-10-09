@@ -194,7 +194,7 @@ document.getElementById("numberInput").addEventListener("keydown",e=>{if(e.key==
 
 document.getElementById("teacherBtn").addEventListener("click",()=>{
   const pin=prompt("先生用PINを入力してください。");
-  if(pin==="2468") {
+  if(pin==="0123") {
     document.getElementById("teacherView").classList.remove("hidden");
     document.getElementById("studentView").classList.add("hidden");
     document.getElementById("teacherBtn").classList.add("hidden");
